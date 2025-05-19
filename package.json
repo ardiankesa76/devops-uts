@@ -1,0 +1,23 @@
+{
+  "name": "devops-uts",
+  "version": "1.0.0",
+  "description": "Halaman login untuk autentikasi pengguna.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardiankesa76/devops-uts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ardiankesa76/devops-uts/issues"
+  },
+  "homepage": "https://github.com/ardiankesa76/devops-uts#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
