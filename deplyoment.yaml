@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-uts-deployment
+  labels:
+    app: devops-uts
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: devops-uts
+  template:
+    metadata:
+      labels:
+        app: devops-uts
+    spec:
+      containers:
+        - name: devops-uts
+          image: devops-uts   # Pastikan image ini sudah dibuild dan tersedia di lokal / registry
+          ports:
+            - containerPort: 5000
